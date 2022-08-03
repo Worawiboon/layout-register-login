@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*:focus {
+    outline: 0 !important;
+}
+.slove{
+    color: #a35de5;
+}
+.btn-main{
+    text-align: center;
+    display: inline-block;
+}
+.btn-login{
+    width: 200px;
+    height: 40px;
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    border: none;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.fa-arrow-left{
+    color: blueviolet;
+}
+.btn-gap{
+    margin: 0 auto;
+}
+.btn-signup{
+    width: 200px;
+    height: 40px;
+    background-color: unset;
+    border: 3px #a35de5 solid;
+    color: #a35de5;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.text-welcome{
+    font-size: 40px;
+}
+.w3-container{
+    padding-top: 120px; 
+}
+.btn-login-page{
+    padding-top: 60px;
+}
+.text-social-media{
+    padding-top: 30px;
+}
+
+.btn-signup-page{
+    padding-top: 60px;  
+}
+.btn-signup-edit{
+    width: 200px;
+    height: 40px;
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    border: none;
+    color: white;
+    border-radius: 6px;
+}
+
+
+  .logo-social-media{
+    font-size: 42px;
+  }
+.forgot-password{
+        text-decoration: none;
+        color: blueviolet;
+}
+  h3{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 40px;
+    position:relative;
+    }
+    h3:before{
+    content: "";
+    display:block;
+    width: 47%;
+    height:1px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -2;
+    }
+    h3:after{
+        content: "";
+        display:block;
+        width: 47%;
+        height:1px;
+        background: #000;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        z-index: -2;
+        }
+
+        .btn-grad {background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%)}
+        .btn-grad {
+           margin: 10px;
+           padding: 15px 45px;
+           text-align: center;
+           text-transform: uppercase;
+           transition: 0.5s;
+           background-size: 200% auto;
+           color: white;            
+           box-shadow: 0 0 20px #eee;
+           border-radius: 10px;
+           display: block;
+         }
+
+         .btn-grad:hover {
+           background-position: right center; /* change the direction of the change here */
+           color: #fff;
+           text-decoration: none;
+         }
+        
+.sign-up{
+    text-decoration: none;
+    color: blueviolet;
+}
+        
+@media (min-width: 1400px) { 
+    .w3-container{
+        width: 50%;
+        margin: auto;
+    }
+   
+    h3:before{
+        width: 47%;
+        left: 0;
+        }
+        h3:after{
+            width: 47%;
+            }
+    .text-welcome{
+        text-align: center;
+    }
+    .text-signup{
+        text-align: center;
+    }
+    
+    .btn-login{
+        width: 100px;
+    }
+    .image{
+        margin: auto;
+    }
+   
+ }
